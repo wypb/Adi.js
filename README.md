@@ -1,0 +1,2 @@
+# Adi.js
+ADblock Identifier
