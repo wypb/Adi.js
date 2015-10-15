@@ -1,6 +1,8 @@
 # Adi.js
 Lightweight jQuery plugin for Adblock detection
 
+![Thumb](http://i.imgur.com/EihVW9a.jpg)
+
 ### ```bower install adi.js```
 
 [See it in action](http://mariusbalaj.com/dev/Adi.js)
