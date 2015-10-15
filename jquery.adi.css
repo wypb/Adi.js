@@ -43,7 +43,7 @@
     height: 30px;
     border-radius: 50%;
     background-color: #d5d5d5;
-    background-image: url('../images/icn_close.png');
+    background-image: url('icn_close.png');
     background-repeat: no-repeat;
     background-position: 0 0;
     box-shadow: -2px 2px 8px rgba(148, 146, 145, 0.3);
@@ -60,7 +60,7 @@
     width: 80px;
     height: 80px;
     background-color: #e76e65;
-    background-image: url('../images/icn_danger.png');
+    background-image: url('icn_danger.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     display: block;
