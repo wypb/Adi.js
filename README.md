@@ -36,7 +36,7 @@ All parameters are optional.
 
 ### Examples
 
-1. Don't let user to see the content if adblock is active
+#### Don't let user to see the content if adblock is active
 ```
 $.adi({
   onClose: function(el) {
@@ -46,7 +46,7 @@ $.adi({
 });
 ```
 
-2. Redirect 
+#### Redirect 
 ```
 $.adi({
   onClose: function(el) {
@@ -55,7 +55,7 @@ $.adi({
 });
 ```
 
-3. Add animation to modal
+#### Add animation to modal
 ```
 $.adi({
   onOpen: function(el) {
