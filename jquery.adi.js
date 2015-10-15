@@ -1,6 +1,6 @@
 /**
  * ==============
- *	 F. AdBlock 
+ *	 Adi.js 
  * ==============
  * 
  * @author: Marius Balaj
