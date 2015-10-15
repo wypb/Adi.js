@@ -34,3 +34,32 @@ All parameters are optional.
 | ```onOpen()```   | Callback function triggered when modal is appended to ```document.body``` and ```display``` is set to ```block``` |
 | ```onClose()```  | Callback function triggered when modal's ```display``` is set to ```none```                                       |
 
+### Examples
+
+1. Don't let user to see the content if adblock is active
+```
+$.adi({
+  onClose: function(el) {
+    /* refresh each time user close the modal */
+    window.location.reload(true);
+  }
+});
+```
+
+2. Redirect 
+```
+$.adi({
+  onClose: function(el) {
+    window.location = 'http://some-website.com';
+  }
+});
+```
+
+3. Add animation to modal
+```
+$.adi({
+  onOpen: function(el) {
+    /* make the modal bounce in by adding animate.css classes on modal */
+    el.find('.jquery-adi_content').addClass('animated bounceInDown')
+  },
+});
