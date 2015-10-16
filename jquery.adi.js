@@ -152,7 +152,7 @@ if (typeof jQuery === 'undefined') {
 
     Adi.defaults = {
         title: 'Adblock detected!',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat felis.',
+        content: 'We noticed that you may have an Ad Blocker turned on. Please be aware that our site is best experienced with Ad Blockers turned off.',
         theme: 'light',
         onOpen: function() {},
         onClose: function() {},
