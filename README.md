@@ -5,7 +5,7 @@ Lightweight jQuery plugin for Adblock detection
 
 ### ```bower install adi.js```
 
-[See it in action](http://mariusbalaj.com/dev/Adi.js)
+[See it in action](http://codepen.io/mariusbalaj/pen/MaEdpx)
 
 ### To install follow the steps (order is important):
   
